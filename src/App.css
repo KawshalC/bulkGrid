@@ -1,0 +1,173 @@
+@font-face {
+  font-family: RobotoLight;
+  src:  url('../src/Fonts/Roboto/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: RobotoBold;
+  src:  url('../src/Fonts/Roboto/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: MoonLight;
+  src:  url('../src/Fonts/Moon/Moon-Light.otf');
+}
+@font-face {
+  font-family: RobotoRegular;
+  src:  url('../src/Fonts/Roboto/Roboto-Regular.ttf');
+}
+@import url("./Dropdown.css");
+/* Let's get this party started */
+
+body {
+  justify-content: center;
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 550px; 
+  color: grey;
+  font-family: RobotoLight;
+  background-image: linear-gradient(to right top, #EEEEEE, #BBBBBB);
+}
+
+input[type=text]{
+  width:100%;
+  border:0;
+  border-bottom: 1px solid #AAAAAA;
+  margin:8px 0;
+  outline:none;
+  box-sizing:border-box;
+  transition:.3s;
+  color: grey;
+  font-size: 16px;
+  font-family: RobotoLight;
+  background-color: transparent;
+  text-align: center;
+}
+#mainApp{
+  width: 900px;
+  overflow: auto;
+}  
+#mainApp::-webkit-scrollbar {
+    width: 8px;
+} 
+#mainApp::-webkit-scrollbar-track {
+    background-color: var(--scroll-color);
+    border-radius: 5px;
+} 
+#mainApp::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.CaseyGrid{
+  display: table;
+  background-color:#f5f5f5;  
+  height:90wh;
+}
+.CaseyGrid .headerRowGroup,.CaseyGrid .stickyheaderGroup{
+  background-color:#36304a;
+  color:#fff;
+  display: flex;
+}
+.tableCellContainer{
+  text-align: center;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tableCellContainer div{
+  text-align: center;
+}
+.dataRowGroup, .stickyDataGroup, .cellRowGroup {
+  display: flex;
+}
+.stickyheaderGroup,.stickyDataGroup {
+  position: sticky;
+  left: 0;
+  overflow: hidden;
+  z-index: 999;
+  background-color:#f5f5f5;
+}
+.stickyDataGroup{   
+  border-right: 1px solid #BEBEBE;
+}
+.gridCheckbox{
+  padding:10px;
+}
+.headerCellContainer{
+  padding: 5px 0;
+  width: 150px;
+}
+.firstHeaderCell{
+  display: inline-block;
+  padding: 6px 15px 6px 16px;
+  font-size: 13px;
+}
+.headerCell{
+  font-size: 16px;
+  font-family:RobotoRegular ;
+  text-align: center;
+  padding: 0 10px 0 10px;
+  white-space: nowrap;
+}
+.lastHeaderCell{
+  padding-right: 15px;
+  display: inline-block;
+  font-size: 20px;
+}
+.CaseyGrid .dataRow:nth-child(even)  {
+  background:#fff;
+}
+.rowSelected{
+  color: #FFFFFF;
+  background: #ADADAD !important;
+}
+.rowSelected .dropdown-body.open{
+  color: #FFFFFF;
+  background: #ADADAD !important;
+}
+.rowSelected .dataRow{
+  background: #ADADAD !important;
+}
+.dropdown-header{
+  padding: 0;
+}
+.rowSelected .dropdown-header i{
+  color: #00BFFF;
+}
+.rowSelected .rowSelected{
+  color: #FFFFFF;
+  background: #757575 !important;
+}
+.rowSelected .tableCellContainer input[type=text]{
+  color: #FFFFFF;
+  background: #ADADAD !important;
+  border-bottom: 1px solid #FFFFFF;
+}
+.secondaryContainer {
+  display: table-cell;
+}
+.secondaryContainer .CaseyGrid{
+  visibility: hidden;
+  opacity: 0;
+}
+.secondaryGrid{
+  position: relative;
+  z-index: 99;
+  border: 1px solid #808080;
+  background: white;
+}
+.secondaryGrid .CaseyGrid{
+  visibility: visible;
+  opacity: 1; 
+  transition: visibility 0s, opacity 0.5s linear;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.secondaryGrid .gridCheckbox{
+  padding: 0px;
+}
+
+.stickyCell{
+  position: sticky;
+  background-color: inherit;
+  left: 0;
+}

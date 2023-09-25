@@ -1,0 +1,487 @@
+[
+    {
+  "showCrossIcon":false,
+  "showCheckBox": true,
+  "dockedColNames":["empName"],
+  "headerNames": [
+    {
+      "headerName": "Employee Name",
+      "model": "empName"
+    },
+    {
+      "headerName": "Employee Id",
+      "model": "empid"
+    },
+    {
+      "headerName": "Position",
+      "model": "post"
+    },
+    {
+      "headerName": "Department",
+      "model": "dept"
+    },
+    {
+      "headerName": "Reportees",
+      "model": "reportee"
+    },
+    {
+      "headerName": "Salary",
+      "model": "salary"
+    }
+    ,{
+      "headerName": "Reports To",
+      "model": "reportsTo"
+    },
+    {
+      "headerName": "Has Insurance",
+      "model": "hasInsurance"
+    }
+  ],
+  "rowData": [
+    [
+      {
+        "model": "empName",
+        "value": "Rhoda Report",
+        "type": "1"
+      },
+      {
+        "model": "empid",
+        "value": "XXX1",
+        "type": "1"
+      },
+      {
+        "model": "post",
+        "value": "1",
+        "type": "2",
+        "secondaryData": [
+          {
+            "id": "0",
+            "label": "Forest"
+          },
+          {
+            "id": "1",
+            "label": "Agriculture"
+          },
+          {
+            "id": "2",
+            "label": "Soil Preservation"
+          }
+        ]
+      },
+      {
+        "model": "dept",
+        "value": "1",
+        "type": "2",
+        "secondaryData": [
+          {
+            "id": "0",
+            "label": "Forest"
+          },
+          {
+            "id": "1",
+            "label": "Agriculture"
+          },
+          {
+            "id": "2",
+            "label": "Soil Preservation"
+          }
+        ]
+      },
+      {
+        "model": "reportee",
+        "value": "Stuff",
+        "type": "0",
+        "secondaryData": {
+          "showCrossIcon":true,
+          "showCheckBox": true,
+          "dockedColNames":["empName","empid"],
+          "headerNames": [
+            {
+              "headerName": "Employee Name",
+              "model": "empName"
+            },
+            {
+              "headerName": "Employee Id",
+              "model": "id"
+            }
+          ],
+          "rowData": [
+            [
+              {
+                "model": "empName",
+                "value": "1",
+                "type": "1"
+              },
+              {
+                "model": "id",
+                "value": "226052",
+                "type": "1"
+              }
+            ],
+            [
+              {
+                "model": "empName",
+                "value": "1",
+                "type": "1"
+              },
+              {
+                "model": "id",
+                "value": "226052",
+                "type": "1"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "model": "salary",
+        "value": false,
+        "type": "3"
+      },
+      {
+        "model": "reportsTo",
+        "value": true,
+        "type": "3"
+      },
+      {
+        "model": "hasInsurance",
+        "value": true,
+        "type": "3"
+      }
+    ],
+    [
+      {
+        "model": "empName",
+        "value": "Rhoda Report",
+        "type": "1"
+      },
+      {
+        "model": "empid",
+        "value": "XXX1",
+        "type": "1"
+      },
+      {
+        "model": "post",
+        "value": "1",
+        "type": "2",
+        "secondaryData": [
+          {
+            "id": "0",
+            "label": "Forest"
+          },
+          {
+            "id": "1",
+            "label": "Agriculture"
+          },
+          {
+            "id": "2",
+            "label": "Soil Preservation"
+          }
+        ]
+      },
+      {
+        "model": "dept",
+        "value": "1",
+        "type": "2",
+        "secondaryData": [
+          {
+            "id": "0",
+            "label": "Forest"
+          },
+          {
+            "id": "1",
+            "label": "Agriculture"
+          },
+          {
+            "id": "2",
+            "label": "Soil Preservation"
+          }
+        ]
+      },
+      {
+        "model": "reportee",
+        "value": "Stuff",
+        "type": "0",
+        "secondaryData": {
+          "showCrossIcon":true,
+          "showCheckBox": true,
+          "dockedColNames":["empName","empid"],
+          "headerNames": [
+            {
+              "headerName": "Employee Name",
+              "model": "empName"
+            },
+            {
+              "headerName": "Employee Id",
+              "model": "id"
+            }
+          ],
+          "rowData": [
+            [
+              {
+                "model": "empName",
+                "value": "1",
+                "type": "1"
+              },
+              {
+                "model": "id",
+                "value": "226052",
+                "type": "1"
+              }
+            ],
+            [
+              {
+                "model": "empName",
+                "value": "1",
+                "type": "1"
+              },
+              {
+                "model": "id",
+                "value": "226052",
+                "type": "1"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "model": "salary",
+        "value": false,
+        "type": "3"
+      },
+      {
+        "model": "reportsTo",
+        "value": true,
+        "type": "3"
+      },
+      {
+        "model": "hasInsurance",
+        "value": true,
+        "type": "3"
+      }
+    ],
+    [
+      {
+        "model": "empName",
+        "value": "Rhoda Report",
+        "type": "1"
+      },
+      {
+        "model": "empid",
+        "value": "XXX1",
+        "type": "1"
+      },
+      {
+        "model": "post",
+        "value": "1",
+        "type": "2",
+        "secondaryData": [
+          {
+            "id": "0",
+            "label": "Forest"
+          },
+          {
+            "id": "1",
+            "label": "Agriculture"
+          },
+          {
+            "id": "2",
+            "label": "Soil Preservation"
+          }
+        ]
+      },
+      {
+        "model": "dept",
+        "value": "1",
+        "type": "2",
+        "secondaryData": [
+          {
+            "id": "0",
+            "label": "Forest"
+          },
+          {
+            "id": "1",
+            "label": "Agriculture"
+          },
+          {
+            "id": "2",
+            "label": "Soil Preservation"
+          }
+        ]
+      },
+      {
+        "model": "reportee",
+        "value": "Stuff",
+        "type": "0",
+        "secondaryData": {
+          "showCrossIcon":true,
+          "showCheckBox": true,
+          "dockedColNames":["empName","empid"],
+          "headerNames": [
+            {
+              "headerName": "Employee Name",
+              "model": "empName"
+            },
+            {
+              "headerName": "Employee Id",
+              "model": "id"
+            }
+          ],
+          "rowData": [
+            [
+              {
+                "model": "empName",
+                "value": "1",
+                "type": "1"
+              },
+              {
+                "model": "id",
+                "value": "226052",
+                "type": "1"
+              }
+            ],
+            [
+              {
+                "model": "empName",
+                "value": "1",
+                "type": "1"
+              },
+              {
+                "model": "id",
+                "value": "226052",
+                "type": "1"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "model": "salary",
+        "value": false,
+        "type": "3"
+      },
+      {
+        "model": "reportsTo",
+        "value": true,
+        "type": "3"
+      },
+      {
+        "model": "hasInsurance",
+        "value": true,
+        "type": "3"
+      }
+    ],
+    [
+      {
+        "model": "empName",
+        "value": "Rhoda Report",
+        "type": "1"
+      },
+      {
+        "model": "empid",
+        "value": "XXX1",
+        "type": "1"
+      },
+      {
+        "model": "post",
+        "value": "1",
+        "type": "2",
+        "secondaryData": [
+          {
+            "id": "0",
+            "label": "Forest"
+          },
+          {
+            "id": "1",
+            "label": "Agriculture"
+          },
+          {
+            "id": "2",
+            "label": "Soil Preservation"
+          }
+        ]
+      },
+      {
+        "model": "dept",
+        "value": "1",
+        "type": "2",
+        "secondaryData": [
+          {
+            "id": "0",
+            "label": "Forest"
+          },
+          {
+            "id": "1",
+            "label": "Agriculture"
+          },
+          {
+            "id": "2",
+            "label": "Soil Preservation"
+          }
+        ]
+      },
+      {
+        "model": "reportee",
+        "value": "Stuff",
+        "type": "0",
+        "secondaryData": {
+          "showCrossIcon":true,
+          "showCheckBox": true,
+          "dockedColNames":["empName","empid"],
+          "headerNames": [
+            {
+              "headerName": "Employee Name",
+              "model": "empName"
+            },
+            {
+              "headerName": "Employee Id",
+              "model": "id"
+            }
+          ],
+          "rowData": [
+            [
+              {
+                "model": "empName",
+                "value": "1",
+                "type": "1"
+              },
+              {
+                "model": "id",
+                "value": "226052",
+                "type": "1"
+              }
+            ],
+            [
+              {
+                "model": "empName",
+                "value": "1",
+                "type": "1"
+              },
+              {
+                "model": "id",
+                "value": "226052",
+                "type": "1"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "model": "salary",
+        "value": false,
+        "type": "3"
+      },
+      {
+        "model": "reportsTo",
+        "value": true,
+        "type": "3"
+      },
+      {
+        "model": "hasInsurance",
+        "value": true,
+        "type": "3"
+      }
+    ]
+  ]
+    }
+]
