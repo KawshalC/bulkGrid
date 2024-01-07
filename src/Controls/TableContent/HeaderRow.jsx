@@ -24,9 +24,11 @@ class HeaderRow extends React.Component{
         return(
           <div className="headerRowGroup">
             <StickyHeader showCheckBox={this.props.showCheckBox} headers={stickyHeaders}></StickyHeader>
+            <div className="nonStickyHeaderGroup">
             {lodash.map(nonStickyHeaders, function (rowHeader, index) {
                 return <HeaderCell key={rowHeader.headerName} rowHeader={rowHeader} ></HeaderCell>;
               })}
+              </div>
             {this.showCrossIcon()}
         </div>
         )

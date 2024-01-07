@@ -13,7 +13,6 @@ class SecondaryGrid extends React.Component{
         this.setState({pos: {x: 0, y: 0}});
       }      
       toggleGridView(){
-        debugger;
         this.setState({isOpen: !this.state.isOpen});
       }
       showHideSecondaryTable(){
@@ -25,8 +24,8 @@ class SecondaryGrid extends React.Component{
       }
       render(){
         return(        
-            <div className="secondaryContainer dropdown">
-                <div className='dropdown-header' onClick={()=>this.toggleGridView()}>
+            <div className="secondaryContainer collapsible">
+                <div className='collapsible-header' onClick={()=>this.toggleGridView()}>
                     {this.state.selectedItem ? this.state.items.find(item => item.id === this.state.selectedItem).label : "Employees"}
                     <i className={`fa fa-chevron-right icon ${this.state.isOpen && "open"}`}></i>
                 </div>

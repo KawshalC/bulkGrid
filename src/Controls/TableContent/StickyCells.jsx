@@ -11,13 +11,11 @@ class StickyCells extends React.Component{
             isOpen:false 
           }           
       }
-      selectDeselectRow(){
-        this.setState({selected:!this.state.selected});
-      }
+      
       showCheckBox(){
         if(this.props.showCheckBox)
           return(<div className="gridCheckbox">
-            <input type="checkbox" onChange={()=>this.selectDeselectRow()}></input>
+            <input type="checkbox"onClick={this.props.selectDeselectRow}></input>
             </div> );
         else
           return(<div></div> );
@@ -29,7 +27,7 @@ class StickyCells extends React.Component{
       }
       render(){
         return(
-            <div className={`stickyDataGroup ${this.state.selected ?`rowSelected`:``}`}>            
+            <div className={`stickyDataGroup ${this.props.selected ?`rowSelected`:``}`}>            
               {this.showCheckBox()}
                 {lodash.map(this.props.stickyCells, function (cellData, index) {              
                   return <Cell key={index} cellData={cellData} ></Cell>;
