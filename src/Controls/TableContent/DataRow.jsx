@@ -40,4 +40,3 @@ class DataRow extends React.Component{
       }
 }
 export default DataRow;
-{/* <div className={`stickyDataGroup ${this.state.selected ?`rowSelected`:``}`}></div> */}

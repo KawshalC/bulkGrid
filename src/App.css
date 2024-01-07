@@ -14,7 +14,6 @@
 	font-family: RobotoRegular;
 	src: url('../src/Fonts/Roboto/Roboto-Regular.ttf');
 }
-@import url("./Dropdown.css");
 /* Let's get this party started */
 body {
 	padding-top: 150px;
